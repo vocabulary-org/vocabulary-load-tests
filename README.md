@@ -39,15 +39,6 @@ k6 run load-test.js \
   -e TEST_PASSWORD=<password>
 ```
 
-### Production
-
-```bash
-k6 run load-test.js \
-  -e BASE_URL=https://www.myvocabulary.net \
-  -e KC_URL=https://<your-keycloak-url> \
-  -e TEST_USER=loadtest_user \
-  -e TEST_PASSWORD=<password>
-```
 
 ## Environment Variables
 
